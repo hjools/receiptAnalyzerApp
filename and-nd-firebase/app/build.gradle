@@ -10,12 +10,12 @@ repositories {
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.google.firebase.udacity.receiptapp"
         minSdkVersion 16
-        targetSdkVersion 24
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -24,6 +24,7 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+            multiDexKeepFile file('multidex-config.txt')
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -41,6 +42,7 @@ dependencies {
     // (v1.4.57)
     // Displaying images
     // support for OCR reader
+    compile 'com.android.support:multidex:1.0.3'
     compile 'com.joanzapata.iconify:android-iconify-material:2.2.2'
     compile 'com.joanzapata.iconify:android-iconify-material-community:2.2.2'
     compile 'com.android.support:design:24.2.0'

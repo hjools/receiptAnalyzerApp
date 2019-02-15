@@ -1,6 +1,7 @@
 package com.google.firebase.udacity.receiptapp.app;
 
 import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 
 import com.joanzapata.iconify.Iconify;
 import com.joanzapata.iconify.fonts.MaterialModule;
@@ -13,7 +14,7 @@ import com.joanzapata.iconify.fonts.MaterialModule;
  * to our menu that scale with resolution.
  */
 
-public class ReceiptAnalyze extends Application {
+public class ReceiptAnalyze extends MultiDexApplication {
 
     @Override
     public void onCreate() {
