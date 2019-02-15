@@ -1,6 +1,7 @@
 # Receipt Analyzer App
 This Android application was built for Duke's CS290.3 Mobile Software Development course. 
 The original website for this project is available [HERE](https://joycechoi19.github.io/receiptAnalyzerWebsite/). 
+
 [This link](https://hjools.github.io/receiptAnalyzerApp/) leads back to the current project page.
 
 The app aims to do 2 things:
