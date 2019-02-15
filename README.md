@@ -7,10 +7,10 @@ The app aims to do 2 things:
 1. Make your paper receipts electronic by simply taking a photo and storing all of them in a easy to navigate UI 
 2. Use image-to-text conversion to make receipts searchable by store name, purchase date, or amount spent
 
-![Screenshot](screenshot.png)
-
 ## Technologies Used
 * Android Studio & Java
 * Firebase
 * Google Cloud Vision OCR
 * Google Maps API
+
+![Screenshot](screenshot.png)
